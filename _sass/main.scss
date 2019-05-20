@@ -35,7 +35,7 @@ $black: #000000;
 }
 
 #footer {
-  background-color: $green;
+  background-color: $orange;
   color: $white;
   min-height: 100vh;
   padding-top: 8em;
@@ -43,6 +43,13 @@ $black: #000000;
 
 #how {
   background-color: $yellow;
+  color: $black;
+  min-height: 100vh;
+  padding-top: 8em;
+}
+
+#signup {
+  background-color: $green;
   color: $black;
   min-height: 100vh;
   padding-top: 8em;
