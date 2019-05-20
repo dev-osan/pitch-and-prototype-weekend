@@ -1,0 +1,56 @@
+// Color palette
+$blue: #0d6eac;
+$yellow: #fce157;
+$orange: #e87731;
+$red: #e03b42;
+$green: #75ba44;
+$white: #fffef3;
+$black: #000000;
+
+
+// Classes
+.header {
+  background-color: $white;
+  height: 100vh;
+  color: $black;
+
+  .row {
+    padding-top: 18%;
+  }
+}
+
+// IDs
+#about {
+  background-color: $blue;
+  color: $white;
+  min-height: 100vh;
+  padding-top: 8em;
+}
+
+#event {
+  background-color: $red;
+  color: $white;
+  min-height: 100vh;
+  padding-top: 8em;
+}
+
+#footer {
+  background-color: $green;
+  color: $white;
+  min-height: 100vh;
+  padding-top: 8em;
+}
+
+#how {
+  background-color: $yellow;
+  color: $black;
+  min-height: 100vh;
+  padding-top: 8em;
+}
+
+#sponsor {
+  background-color: $white;
+  color: $black;
+  min-height: 100vh;
+  padding-top: 8em;
+}
