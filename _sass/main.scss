@@ -61,3 +61,10 @@ $black: #000000;
   min-height: 100vh;
   padding-top: 8em;
 }
+
+// Bootstrap overrides
+#nav, .btn {
+  background-color: $blue;
+  color: $white;
+  border-bottom: grey 1px solid;
+}
