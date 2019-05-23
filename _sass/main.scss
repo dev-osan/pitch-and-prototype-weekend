@@ -36,6 +36,15 @@ $black: #000000;
   color: $white;
   min-height: 100vh;
   padding-top: 8em;
+
+  .block {
+    padding: 2em;
+  }
+
+  p {
+    font-weight: bold;
+    margin-top: 2em;
+  }
 }
 
 #footer {
