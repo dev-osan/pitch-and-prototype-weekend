@@ -25,6 +25,10 @@ $black: #000000;
   color: $white;
   min-height: 100vh;
   padding-top: 8em;
+  
+  i {
+    font-size: 5em;
+  }
 }
 
 #event {
@@ -46,6 +50,10 @@ $black: #000000;
   color: $black;
   min-height: 100vh;
   padding-top: 8em;
+
+  i {
+    font-size: 5em;
+  }
 }
 
 #signup {
