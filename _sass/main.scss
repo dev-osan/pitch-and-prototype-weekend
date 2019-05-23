@@ -25,7 +25,7 @@ $black: #000000;
   color: $white;
   min-height: 100vh;
   padding-top: 8em;
-  
+
   i {
     font-size: 5em;
   }
@@ -51,8 +51,18 @@ $black: #000000;
   min-height: 100vh;
   padding-top: 8em;
 
+  .block {
+    padding: 2em;
+  }
+
   i {
     font-size: 5em;
+    color: $white;
+  }
+
+  p {
+    font-weight: bold;
+    margin-top: 2em;
   }
 }
 
