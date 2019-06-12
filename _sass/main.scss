@@ -7,19 +7,46 @@ $green: #75ba44;
 $white: #fffef3;
 $black: #000000;
 
+// Variables
+$font-size: 1.25em;
+$letter-spacing: 1px;
+$word-spacing: 1px;
+
 body {
   font-family: 'Oswald', sans-serif;
+  letter-spacing: $letter-spacing;
+  word-spacing: $word-spacing;
 }
 
 // Classes
 .header {
   background-color: $white;
+  background-image: url("/assets/img/cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   color: $black;
 
   .row {
     padding-top: 18%;
   }
+
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  p {
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+  
 }
 
 // IDs
@@ -28,9 +55,10 @@ body {
   color: $white;
   min-height: 100vh;
   padding-top: 8em;
+  font-size: $font-size;
 
   i {
-    font-size: 5em;
+    font-size: 4em;
   }
 }
 
@@ -39,6 +67,7 @@ body {
   color: $white;
   min-height: 100vh;
   padding-top: 8em;
+  font-size: $font-size;
 
   .block {
     padding: 2em;
@@ -55,6 +84,7 @@ body {
   color: $white;
   min-height: 100vh;
   padding-top: 8em;
+  font-size: $font-size;
 }
 
 #how {
@@ -62,13 +92,14 @@ body {
   color: $black;
   min-height: 100vh;
   padding-top: 8em;
+  font-size: $font-size;
 
   .block {
     padding: 2em;
   }
 
   i {
-    font-size: 5em;
+    font-size: 4em;
     color: $white;
   }
 
@@ -83,6 +114,7 @@ body {
   color: $black;
   min-height: 100vh;
   padding-top: 8em;
+  font-size: $font-size;
 }
 
 #sponsor {
