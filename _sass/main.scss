@@ -19,6 +19,17 @@ body {
   word-spacing: $word-spacing;
 }
 
+.contact-info {
+  font-size: $font-size;
+  a {
+    color: $white;
+
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+}
+
 // Classes
 .header {
   background-color: $white;
